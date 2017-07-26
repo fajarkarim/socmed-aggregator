@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <title>Tweet !!!</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-5 offset-3  ">
+          <form class="form-inline pt-3 pb-5" action="" method="post">
+            <div class="form-group">
+              <label class="sr-only">TWEET !</label>
+              <p class="form-control-static">Tweet !</p>
+            </div>
+            <div class="form-group mx-sm-3">
+              <input class="form-control" type="text" name="postTweet" placeholder="tweet here....">
+            </div>
+            <button class="btn btn-primary" type="submit" name="button">Tweet</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card">
+            <div class="card-block">
+              <button class="btn btn-info" type="button" name="button" data-toggle="collapse" data-target="#timeline" aria-expanded="false" aria-controls="timeline">Get timeline</button>
+              <div class="collapse" id="timeline">
+                <div class="card card-block">
+                  <p>hahaha</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-block">
+              <form class="form-inline pt-3 pb-5" action="" method="post">
+                <div class="form-group mx-sm-3">
+                  <input class="form-control" type="text" name="searchTweet" placeholder="search tweet here....">
+                </div>
+                <button class="btn btn-primary" type="submit" name="searchBtn" data-toggle="collapse" data-target="#search" aria-expanded="false" aria-controls=search>Search</button>
+              </form>
+            </div>
+            <div class="collapse" id="search">
+              <div class="card card-block">
+                <p>hahaha</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
